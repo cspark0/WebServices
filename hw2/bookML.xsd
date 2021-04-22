@@ -18,10 +18,10 @@
 			<element ref="bml:revisionDate" minOccurs="0" maxOccurs="unbounded"/>  <!-- 전역 엘리먼트를 참조 -->
 			<element name="price" type="bml:priceType"/>
 			<element name="discountRate" type="bml:discountRateType"
-						minOccurs="0" maxOccurs="unbounded"/>
+						minOccurs="1" maxOccurs="unbounded"/>
 			<element name="pages" type="bml:pagesType"/>
 			<element name="coverImage" type="bml:bookCoverType" minOccurs="0"/>
-			<element name="category" type="string" minOccurs="0"
+			<element name="category" type="string" minOccurs="1"
 						maxOccurs="unbounded"/>
 			<element name="description" type="string" minOccurs="0"/>
 			<element name="review" type="string" minOccurs="0" maxOccurs="unbounded"/>			
